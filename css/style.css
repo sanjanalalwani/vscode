@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root{
+    --main-bg-color: rgb(12, 250, 214);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 90px;
+    padding: 0px 7px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    height: 58px;
+    align-items: center;z
+}
+nav ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.textcenter{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}

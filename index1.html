@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: red;
+            height: 46px;
+        }
+
+        .box {
+            border: 2px solid black;
+            display: inline-block;
+            /* transform-origin: 0;
+             transform: translate(134px, 56px); */
+            /* transform: skew(4deg, 6deg); */
+        }
+        img{
+            width: 455px;
+            transition-property: width;
+            transition-duration: 1s;
+            transition-timing-function: ease-in;
+        } 
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img id="myImage" src="https://source.unsplash.com/user/erondu/960x520">
+       <button id="btn">
+        toggle
+       </button> </div>.
+
+    </div>
+</body>
+<script>
+    btn.addEventListener("click", ()=>{
+        if(myImage.style.width == '546px'){
+            myImage.style.width="146px";
+        }
+else if(myImage.style.width='146px')
+myImage.style.width="546px";
+    })
+        </script>
+</html>
